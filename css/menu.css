@@ -12,6 +12,9 @@ a{
 }
 
 .menuTitle{
-    font-size: 85px;
-    color: white;
+    font-size: 75px;
+}
+
+.bgColor{
+    background-color: #DFCAAE;
 }
