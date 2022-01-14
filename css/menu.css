@@ -16,5 +16,23 @@ a{
 }
 
 .bgColor{
-    background-color: #DFCAAE;
+    background-color: gold;
+    padding: 5px;
+    opacity: 80%;
+}
+.bgColor1{
+    background-color: gold;
+    padding: 2px;
+    opacity: 80%;
+}
+
+.cardbg{
+    background-color: black;
+    color: white;
+}
+.border{
+    border: gold;
+}
+.italics{
+    font-style: italic;
 }
