@@ -11,3 +11,8 @@
     background-size: cover;
     height: 70vh;
 }
+
+#map {
+    height: 24rem;
+    width: 100%;
+}
