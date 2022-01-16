@@ -24,6 +24,10 @@ p {
     font-size: 2rem;
 }
 
+#ownerContainer {
+    background-color: #DFCAAE
+}
+
 #ownerHeading {
     font-size: 4rem;
 }
