@@ -11,6 +11,9 @@
     background-size: cover;
     height: 60vh;
 }
+#heroImage2 h1,h3 {
+    color: white;
+}
 
 #map {
     height: 24rem;
