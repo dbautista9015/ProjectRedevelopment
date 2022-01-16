@@ -18,4 +18,12 @@
 #map {
     height: 24rem;
     width: 100%;
+} 
+
+p {
+    font-size: 2rem;
+}
+
+#ownerHeading {
+    font-size: 4rem;
 }
