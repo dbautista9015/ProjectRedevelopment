@@ -20,9 +20,6 @@
     width: 100%;
 } 
 
-p {
-    font-size: 2rem;
-}
 
 #ownerContainer {
     background-color: #DFCAAE
@@ -30,4 +27,16 @@ p {
 
 #ownerHeading {
     font-size: 4rem;
+}
+
+@media screen and (min-width: 1920px) {
+    p {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 1500px) and (max-width: 1919px) {
+    p {
+        font-size: 1.5rem;
+    }
 }
