@@ -2,7 +2,7 @@
     background-image: url("../images/NoPath\ -\ Copy\ \(2\).png");
     background-position: center;
     background-size: cover;
-    height: 70vh;
+    height: 50vh;
 }
 
 #heroImage2 {
@@ -20,7 +20,6 @@
     width: 100%;
 } 
 
-
 #ownerContainer {
     background-color: #DFCAAE
 }
@@ -29,6 +28,7 @@
     font-size: 4rem;
 }
 
+/*Media Queries for p tag meet the owner section */
 @media screen and (min-width: 2276px) {
     p {
         font-size: 2.0rem;
@@ -46,3 +46,7 @@
         font-size: 1.5rem;
     }
 }
+
+/*End Media queries for p tag meet the owner section */
+
+
