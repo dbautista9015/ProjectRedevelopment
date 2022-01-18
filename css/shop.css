@@ -12,7 +12,7 @@
     height: 60vh;
 }
 #heroImage2 h1,h3 {
-    color: white;
+    color: black;
 }
 
 #map {
@@ -35,6 +35,16 @@
     #ownerHeading {
         font-size: 4rem;
     }
+
+    #heroImage2 h1,h3 {
+        color: black;
+        font-size: 3rem;
+    }
+
+    #map {
+        height: 35rem;
+        width: 100%;
+    } 
 }
 
 @media screen and (min-width: 1920px) and (max-width: 2275px) {
@@ -45,11 +55,21 @@
     #ownerHeading {
         font-size: 3rem;
     }
+
+    #heroImage2 h1,h3 {
+        color: black;
+        font-size: 2.5rem;
+    }
 }
 
 @media screen and (min-width: 1500px) and (max-width: 1919px) {
     p {
         font-size: 1.5rem;
+    }
+
+    #heroImage2 h1,h3 {
+        color: black;
+        font-size: 2.5rem;
     }
     
 }
@@ -58,8 +78,50 @@
     p {
         font-size: 1.3rem
     }
+
+    
 }
 
+@media screen and (min-width: 385px) and (max-width: 767px) {
+    #map {
+        height: 12rem;
+        width: 100%;
+    } 
+
+    #heroImage2 h1,h3 {
+        color: black;
+        font-size: 1.5rem;
+    }
+
+    #heroImage2 {
+        background-image: url("../images/fb62d9f8e7824b2e90b13b971e700b92.png");
+        background-position: center;
+        background-size: cover;
+        height: 80vh;
+    }
+
+
+}
+
+@media screen and (min-width: 200px) and (max-width: 384px) {
+    #map {
+        height: 12rem;
+        width: 100%;
+    } 
+
+    #heroImage2 h1,h3 {
+        color: black;
+        font-size: 1.3rem;
+    }
+
+    #heroImage2 {
+        background-image: url("../images/fb62d9f8e7824b2e90b13b971e700b92.png");
+        background-position: center;
+        background-size: cover;
+        height: 80vh;
+    }
+
+}
 
 
 /*End Media queries for p tag meet the owner section */
