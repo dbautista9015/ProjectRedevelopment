@@ -1,0 +1,16 @@
+.Bgblack{
+    background-color: black;
+}
+.white{
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+
+.header{
+    background-color: grey;
+    opacity: 80%;
+    padding: 0px;
+    width: auto;
+}
